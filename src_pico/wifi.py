@@ -25,9 +25,3 @@ def connect_wifi(waiting_time = 10):
         time.sleep(2)
 
     return wlan.isconnected()
-
-url = "https://open-meteo.com/en/docs?latitude=59.3454275&longitude=18.0225"
-
-response = requests.get(url).json()
-
-print(response)
